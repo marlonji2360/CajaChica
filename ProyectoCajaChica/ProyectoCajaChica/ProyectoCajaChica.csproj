@@ -375,6 +375,20 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Clases\Beans\Caja.cs" />
+    <Compile Include="Clases\Beans\ConceptoFactura.cs" />
+    <Compile Include="Clases\Beans\ConceptoGasto.cs" />
+    <Compile Include="Clases\Beans\Departamento.cs" />
+    <Compile Include="Clases\Beans\DetalleDevolucion.cs" />
+    <Compile Include="Clases\Beans\Empleados.cs" />
+    <Compile Include="Clases\Beans\Factura.cs" />
+    <Compile Include="Clases\Beans\OrdenDevolucion.cs" />
+    <Compile Include="Clases\Beans\Proveedores.cs" />
+    <Compile Include="Clases\Beans\Solicitud.cs" />
+    <Compile Include="Clases\Beans\TipoCondicion.cs" />
+    <Compile Include="Clases\Beans\Transaccion.cs" />
+    <Compile Include="Clases\Beans\Usuario.cs" />
+    <Compile Include="Clases\Modelos\Conexion.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
