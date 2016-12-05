@@ -211,6 +211,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="IngresarCaja.aspx" />
+    <Content Include="IngresoConceptoGasto.aspx" />
+    <Content Include="IngresoDepartamentos.aspx" />
+    <Content Include="IngresoEmpleados.aspx" />
+    <Content Include="IngresoSolicitud.aspx" />
+    <Content Include="IngresoUsuarios.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -251,6 +257,7 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -389,6 +396,12 @@
     <Compile Include="Clases\Beans\Transaccion.cs" />
     <Compile Include="Clases\Beans\Usuario.cs" />
     <Compile Include="Clases\Modelos\Conexion.cs" />
+    <Compile Include="Clases\Modelos\ModeloCaja.cs" />
+    <Compile Include="Clases\Modelos\ModeloConceptoGasto.cs" />
+    <Compile Include="Clases\Modelos\ModeloDepartamento.cs" />
+    <Compile Include="Clases\Modelos\ModeloEmpleados.cs" />
+    <Compile Include="Clases\Modelos\ModeloSolicitud.cs" />
+    <Compile Include="Clases\Modelos\ModeloUsuario.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -406,6 +419,48 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="IngresarCaja.aspx.cs">
+      <DependentUpon>IngresarCaja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresarCaja.aspx.designer.cs">
+      <DependentUpon>IngresarCaja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoConceptoGasto.aspx.cs">
+      <DependentUpon>IngresoConceptoGasto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresoConceptoGasto.aspx.designer.cs">
+      <DependentUpon>IngresoConceptoGasto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoDepartamentos.aspx.cs">
+      <DependentUpon>IngresoDepartamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresoDepartamentos.aspx.designer.cs">
+      <DependentUpon>IngresoDepartamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoEmpleados.aspx.cs">
+      <DependentUpon>IngresoEmpleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresoEmpleados.aspx.designer.cs">
+      <DependentUpon>IngresoEmpleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoSolicitud.aspx.cs">
+      <DependentUpon>IngresoSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresoSolicitud.aspx.designer.cs">
+      <DependentUpon>IngresoSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoUsuarios.aspx.cs">
+      <DependentUpon>IngresoUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresoUsuarios.aspx.designer.cs">
+      <DependentUpon>IngresoUsuarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -421,6 +476,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
